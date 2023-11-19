@@ -37,19 +37,19 @@ In this challenge, I used SparkSQL to determine key metrics about home sales dat
 
 9: The query from step 6 is run on the cached temporary table, and the run time is computed:
 
-![8](https://github.com/cjhornung/Home_Sales/assets/134234019/84e5cf74-82f1-43b2-869d-0015f922fb40)
+![Screenshot 2023-11-19 173455](https://github.com/cjhornung/Home_Sales/assets/134234019/f47009cf-4db7-427b-9bee-ac8b5d10c93e)
 
 10 - 11: A partition of the home sales dataset by the "date_built" field is created, and the formatted parquet data is read:
 
-![9](https://github.com/cjhornung/Home_Sales/assets/134234019/6b77f961-fedd-4795-b0ff-294a47a0136b)
+![8](https://github.com/cjhornung/Home_Sales/assets/134234019/84e5cf74-82f1-43b2-869d-0015f922fb40)
 
 12: A temporary table of the parquet data is created:
 
-![10](https://github.com/cjhornung/Home_Sales/assets/134234019/41fa5ef0-c72a-4133-a6d9-216b8e1abe2d)
+![9](https://github.com/cjhornung/Home_Sales/assets/134234019/6b77f961-fedd-4795-b0ff-294a47a0136b)
 
 13: The query from step 6 is run on the parquet temporary table, and the run time is computed:
 
-![10](https://github.com/cjhornung/Home_Sales/assets/134234019/6064ecf8-2c08-440a-bd4f-ec6eedbec62a)
+![10](https://github.com/cjhornung/Home_Sales/assets/134234019/41fa5ef0-c72a-4133-a6d9-216b8e1abe2d)
 
 14 -15: The "home_sales" temporary table is uncached and verified:
 
